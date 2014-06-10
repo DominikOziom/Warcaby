@@ -1,0 +1,30 @@
+/*!
+   \mainpage Warcaby - Gra warcaby z mozliwoscia gry pomiedzy dwoma graczami lub graczem i komputerem wykorzystujac algorytm AI minimax
+
+   \author  Dominik Oziom
+   \date    10.06.2014
+   \version 0.1
+
+
+   \section etykieta-wazne-cechy Najwazniejsze cechy
+
+   Program zostal napisany w ten sposob, aby byla mozliwosc gry we dwie osoby lub czlowiekiem a komputerem.\n
+   Algorytm sztucznej inteligencji minimax jest oparty na drzewie obiektow zawierajacym wektor mozliwych ruchow\n
+   oraz oceny kazdej z plansz. Aby bylo mozliwe glebsze przeszukiwanie algorytmu minimax uzyto tablic dynamicznych,\n
+   ktore po przeszukaniu danego ruchu i ocenieniu plansz sa usuwane dla zachowania wiekszej ilosci pamieci.\n
+   Uzyte w programie klasy to ruch reprezentujacy jedna mozliwosc ruchu (potrzeny w algorytmie minimax),\n
+   lisc, ktory jest pojedynczym elementem drzewa przeszukiwania planszy oraz rozgrywka zawierajaca wszystkie metody\n
+   potrzebne w prawidlowym poruszaniu sie pionkow po planszy\n
+
+   
+   \section etykieta Zasady gry:
+
+  1. Pionki poruszaja sie tylko do przodu po skosach.\n
+  2. Mozliwe sa bicia do tylu.\n
+  3. Mozliwe sa wielokrotne bicia.\n
+  4. Po osiagniecu przeciwnej krawedzi pionek staje sie damka.\n
+  5. Damka porusza sie we wszystkie strony o jedno pole.\n
+  6. Bicia nie sa przymusowe.\n
+
+   
+ */
